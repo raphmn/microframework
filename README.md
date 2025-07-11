@@ -72,7 +72,7 @@ Pour commencer avec ce microframework, suivez les étapes ci-dessous :
 ### Structure des dossiers
 
 Le framework suit une structure de dossiers classique pour les applications MVC :
-\
+
 .\
 ├── public/              # Dossier public (point d'entrée du framework)\
 │   └── index.php        # Fichier principal\
@@ -94,7 +94,7 @@ Le framework suit une structure de dossiers classique pour les applications MVC 
 │   └── includes.php     # Fichier d'inclusion (session_start, autoload, etc.)\
 ├── vendor/              # Dépendances Composer\
 └── composer.json        # Fichier de configuration Composer\
-\
+
 ### Définition des Routes
 
 Les routes sont définies dans le fichier `routes.php`. Chaque route est un tableau avec la méthode HTTP, le chemin, la cible (Contrôleur#méthode) et un nom unique.
