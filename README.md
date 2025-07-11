@@ -72,28 +72,29 @@ Pour commencer avec ce microframework, suivez les étapes ci-dessous :
 ### Structure des dossiers
 
 Le framework suit une structure de dossiers classique pour les applications MVC :
-.
-├── public/              # Dossier public (point d'entrée du framework)
-│   └── index.php        # Fichier principal
-├── src/                 # Code source de l'application
-│   ├── Controller/      # Contrôleurs
-│   │   ├── MainController.php
-│   │   └── MyController.php
-│   ├── Model/           # Modèles
-│   │   ├── MainModel.php
-│   │   └── MyModel.php
-│   ├── View/            # Vues
-│   │   ├── Layouts/     # Layouts (template, header, footer, errors)
-│   │   └── MyController/  # Vues spécifiques aux contrôleurs
-│   ├── Database/        # Gestion de la base de données
-│   ├── Kernel.php       # Point d'entrée du framework
-│   ├── Routeur.php      # Gestion du routage
-│   ├── routes.php       # Définition des routes
-│   ├── config.php       # Configuration de la base de données
-│   └── includes.php     # Fichier d'inclusion (session_start, autoload, etc.)
-├── vendor/              # Dépendances Composer
-└── composer.json        # Fichier de configuration Composer
-
+\
+.\
+├── public/              # Dossier public (point d'entrée du framework)\
+│   └── index.php        # Fichier principal\
+├── src/                 # Code source de l'application\
+│   ├── Controller/      # Contrôleurs\
+│   │   ├── MainController.php\
+│   │   └── MyController.php\
+│   ├── Model/           # Modèles\
+│   │   ├── MainModel.php\
+│   │   └── MyModel.php\
+│   ├── View/            # Vues\
+│   │   ├── Layouts/     # Layouts (template, header, footer, errors)\
+│   │   └── MyController/  # Vues spécifiques aux contrôleurs\
+│   ├── Database/        # Gestion de la base de données\
+│   ├── Kernel.php       # Point d'entrée du framework\
+│   ├── Routeur.php      # Gestion du routage\
+│   ├── routes.php       # Définition des routes\
+│   ├── config.php       # Configuration de la base de données\
+│   └── includes.php     # Fichier d'inclusion (session_start, autoload, etc.)\
+├── vendor/              # Dépendances Composer\
+└── composer.json        # Fichier de configuration Composer\
+\
 ### Définition des Routes
 
 Les routes sont définies dans le fichier `routes.php`. Chaque route est un tableau avec la méthode HTTP, le chemin, la cible (Contrôleur#méthode) et un nom unique.
